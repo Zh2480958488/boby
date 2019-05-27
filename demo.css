@@ -3,7 +3,8 @@
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
-	font-family: arial; 	
+	font-family: arial; 
+	color: 	#F8F8FF;	
 }
 /*背景图*/
 body{
@@ -15,11 +16,10 @@ body{
 }
 .center{
 	background: rgba(15,34,51,2.5);
-	/*background: rgba(17,34,51,1);*/
 	width: 110px;
 	height: 300px;
 	position: fixed;
-	left: 10%;
+	left: 5%;
 	top: 10%;
 }
 .center:hover{
@@ -35,7 +35,28 @@ body{
 .center ul a li:hover{
 	background: rgba(17,34,51,1);
 }
+/*大盒子外表
+扩展改高*/
+#deepin{
+	height: 1000px;
+	margin: auto;
+	width: 75%;
+	background: rgba(17,34,51,0.5);
+}
 
-
-
+#deepin	#her {
+	text-indent: 2em;
+}
+#deepin	#her h2{
+	text-indent: 4em;
+}
+#deepin	#her h3{
+	text-indent: 6em;
+}
+#deepin	#her .wen1{
+	text-indent: 8em;
+}
+#deepin	#her .wen1 .nei1{
+	text-indent: 10em;
+}
 
