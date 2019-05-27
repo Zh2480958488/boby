@@ -14,7 +14,8 @@ body{
 	background-size: 100%;
 }
 .center{
-	background: rgba(17,34,51,1);
+	background: rgba(15,34,51,2.5);
+	/*background: rgba(17,34,51,1);*/
 	width: 110px;
 	height: 300px;
 	position: fixed;
@@ -22,19 +23,17 @@ body{
 	top: 10%;
 }
 .center:hover{
-	background: rgba(17,34,51,0.8);
+	background: rgba(17,34,51,0.5);
 }
 .center ul a li{
-	/*color: #852;*/
+	color: 	#F8F8FF;
 	width: 110px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
 }
 .center ul a li:hover{
-	color: #f00;
 	background: rgba(17,34,51,1);
-	
 }
 
 
