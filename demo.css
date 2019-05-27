@@ -38,13 +38,14 @@ body{
 /*大盒子外表
 扩展改高*/
 #deepin{
-	height: 1000px;
-	margin: auto;
-	width: 75%;
-	background: rgba(17,34,51,0.5);
 }
 
 #deepin	#her {
+
+	background: rgba(17,34,51,0.5);
+	width: 75%;
+	margin: auto;
+	/*height: 1200px;*/
 	text-indent: 2em;
 }
 #deepin	#her h2{
