@@ -38,26 +38,27 @@ body{
 /*大盒子外表
 扩展改高*/
 #deepin{
-}
-
-#deepin	#her {
-
 	background: rgba(17,34,51,0.5);
 	width: 75%;
 	margin: auto;
 	/*height: 1200px;*/
 	text-indent: 2em;
 }
-#deepin	#her h2{
+
+#deepin	#her,
+#xy {
+	margin-bottom: 40px;
+}
+#deepin	 h2{
 	text-indent: 4em;
 }
-#deepin	#her h3{
+#deepin	 h3{
 	text-indent: 6em;
 }
-#deepin	#her .wen1{
+#deepin	 .wen1{
 	text-indent: 8em;
 }
-#deepin	#her .wen1 .nei1{
+#deepin	 .wen1 .nei1{
 	text-indent: 10em;
 }
 
