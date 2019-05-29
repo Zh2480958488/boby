@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="Js.js">
+		
+	</script>
+</head>
+<body>
+<!-- 阔以将js代码写到标签的onclick属性中
+但属于行为与结构耦合,不方便维护,不推荐使用 -->
+<!-- 
+当点击按钮时js代码才会执行
+弹出窗口 -->
+	<button onclick="alert('讨厌你点我干嘛~');">
+		点我一下
+	</button>
+
+<!-- 阔以将js代码写在超链接  href属性中,点击超链接时会执行我们js代码
+弹出窗口 -->
+	<a href="javascript:alert('让你点你就点啊!!')">你也点我一下</a>
+	<a href="javascript:;">你也点我一下</a>
+
+</body>
+</html>
