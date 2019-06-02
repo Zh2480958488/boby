@@ -29,7 +29,14 @@ console.log(demo1);
 			parseInt(),parseFloat()
 			它会先将其转换为String类型再操作	
 	*/
-var demo2 = "123px";
+
+var demo2 = "0123px";
 var demo3 = parseInt(demo2);
 console.log(typeof(demo3));
 console.log(demo3);
+
+//注意这种字符串有些浏览器可能会解析为8进制数字,有些为10进制
+var demo4 = "0123px";
+//解决办法在转换的时候  添加  , 目标进制
+var demo5 = parseInt(demo4, 10);
+console.log();
