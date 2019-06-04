@@ -1,0 +1,73 @@
+一.
+	1.
+		html22
+		hyperText markup language!!!
+		超文本标记语言
+
+	2.
+		utf-8	万国码
+		unicode 万国码
+		gb2312	中国标准版 无法识别繁体
+		gbk		国家标准扩展版本 可识别繁体
+
+	3.SEO技术	
+		告诉搜索引擎爬虫我们的网页是关于什么内容的
+			lang="en"		en		代表是关于英文的
+			lang="zh"		zh 		代表是中文的
+
+	4.<img src="">	
+		src source  图片的资源地址
+
+	5.
+		href
+		hyperText reference	
+		超文本引用
+
+	6.	
+		anchor 锚	
+
+	7.浏览器的内核
+	shell（表图样式）    内核
+	IE					trident
+	Firefox				Gecko
+	Gooldle chrome		Webkit/blink
+	Safar				Webkit
+	Opera				presto
+
+	7.三.css权重	
+		！important   		Infinity正无穷
+		行间样式 					1000（都是256进制）
+		id              		100
+		class | 属性	|伪属性		10
+		标签 	|伪元素				1
+		通配符					0
+
+	8.浏览器
+		在父子选择器中
+		 是从右向左
+		 从里到外
+
+	9.	盒子三大部分
+		盒子的组成部分：
+
+		盒子壁	border
+
+		内边距	padding
+
+		盒子内容 width+height；
+
+		盒子模型=margin+border+padding+(content=width+height)
+
+	10.bfc渲染规则
+		block format context
+
+	11.
+		行级元素只能嵌套行级元素
+		块级元素可以嵌套任何元素
+		注意：p标签不可以嵌套块级元素
+			<p>
+				<div></div>
+			</p>
+
+			a标签不可以嵌套a标签
+	

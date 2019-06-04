@@ -1,0 +1,301 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial;
+}
+
+/*导航栏	
+.nav .list-item{
+	float: left;
+	margin: 0 10px;
+	height:30px ;
+	line-height: 30px		
+	}
+.nav .list-item	a{
+	padding:0 5px;
+	color: #f40;
+	font-weight: bold;
+	height: 30px;
+	display: inline-block;
+	border-radius: 15px;
+}	
+.nav .list-item	a:hover{
+		background-color: #f40;
+		color: #fff;
+		border-radius: 30px;	
+}
+*/
+
+/*返回首页
+	div{
+		width: 100px;
+		height: 100px;
+	}
+	.red{
+		background-color: red;
+	}
+	.green{
+		background-color: green;
+	}
+
+	a{
+		display: block;
+		border: 1px solid black;
+		height: 50px;
+		width: 200px
+
+	}
+	.box1{
+		position: fixed;
+		bottom: 100px;
+		right: 100px;
+		background-color:#fcc;
+	}
+	.box2{
+		position: fixed;
+		bottom: 150px;
+		right: 100px;
+		background-color:#ffc;
+	}
+*/
+
+/*账号输入
+	input{
+		border: 1px solid rgba(0,0,0,1)
+	}
+*/
+
+/*单选题*/
+
+/*搜索框
+div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -50px;
+	width: 600px;
+	height: 90px;
+}
+div .speed{
+	float: left;
+	display: block;
+	padding: 6px;
+	color: #999;
+	width: 472px;
+	height: 24px;
+	border: 2.5px solid #f40;
+	border-radius:50px 0px 0px 50px;
+	font-size: 12px;
+}
+div .of{
+	cursor: pointer;
+	float: left;
+	display: block;
+	width: 74px;
+	height: 41px;
+	border: 3px solid #f40;
+	border-left-width: 0px ;
+	border-radius: 0px 50px 50px 0px;
+	font-size: 18px;
+	color: #fff;
+	background: #f40;
+}
+*/
+
+
+/*三角形
+div{
+	width: 0px;
+	height: 0px;
+	background-color: #ff0;
+	border: 100px solid ;
+	border-bottom-color: #f40;
+	border-right-color: #0f0;
+	border-bottom-color: #00f;
+	border-left-color: #0ff;
+}
+*/
+
+
+/*加载动画
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.bar{
+	width: 6px;
+	height: 60px;
+	background:white;
+	display: inline-block;
+
+	transform-origin: bottom center;
+	animation: loading 1.5s ease-in-out infinite;
+
+
+}
+
+.bar1{
+	animation-delay: 0.1s;
+}
+.bar2{
+	animation-delay: 0.2s;
+}
+.bar3{
+	animation-delay: 0.3s;
+}
+.bar4{
+	animation-delay: 0.4s;
+}
+.bar5{
+	animation-delay: 0.5s;
+}
+.bar6{
+	animation-delay: 0.6s;
+}
+.bar7{
+	animation-delay: 0.7s;
+}
+.bar8{
+	animation-delay: 0.8s;
+}
+
+@keyframes loading {
+	0%{
+		transform: scaleY(0.1);
+		background:#fff;
+	}
+	50%{
+		transform: scaleY(1);
+		background:#2ecc71;
+	}
+	100%{
+		transform: scaleY(0.1);
+		background:transparent;
+	}
+}
+*/
+
+/*小方块文字居中
+div{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+
+	text-align: center;
+	line-height: 100px;
+	width: 50px;
+	height: 100px;
+}
+*/
+
+/*
+盒子内容居中
+.wrapper{
+	width: 100px;
+	height: 100px;
+	background: red;
+	border: 10px solid #999;
+	padding: 100px;
+}
+.content{
+	width: 100px;
+	height: 100px;
+	background: black;
+}
+*/
+
+
+/*盒子居中
+div{
+	width: 100px;
+	height: 100px;
+	background: red;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	margin-top: -50px;
+	margin-left: -50px;
+}
+*/
+
+
+/*居中五环
+.plat{
+	width:380px ;
+	height: 186px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -93px;
+	margin-left:-190px ;
+}
+
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5{
+	width: 100px;
+	height: 100px;
+	border: 10px solid black;
+	border-radius:50%;
+
+	position: absolute;
+}
+.circle1{
+	border-color:red ;
+	left: 0;
+	top: 0;
+}
+.circle2{
+	border-color:green ;
+	left: 130px;
+	top: 0;
+}
+.circle3{
+	border-color:yellow ;
+	left: 260px;
+	top: 0;
+}
+.circle4{
+	border-color:blue ;
+	left: 65px;
+	top: 70px;
+}
+.circle5{
+	border-color:purple ;
+	left: 195px;
+	top: 70px;
+}
+*/
+
+/*两栏布局
+.right{
+	width: 100px;
+	height: 100px;
+	background: #fcc;
+
+	position: absolute;
+	right: 0;
+}
+
+.left{
+	height: 100px;
+	background: #123;
+
+	margin-right: 100px;
+}
+*/
+
+
+
+
