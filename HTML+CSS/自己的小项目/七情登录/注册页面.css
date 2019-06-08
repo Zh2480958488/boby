@@ -1,0 +1,11 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	color: #424242;
+}
+body{
+	background-image: url(387.jpg);
+	background-size: 100%;
+}

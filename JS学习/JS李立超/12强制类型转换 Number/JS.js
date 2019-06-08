@@ -40,3 +40,9 @@ var demo4 = "0123px";
 //解决办法在转换的时候  添加  , 目标进制
 var demo5 = parseInt(demo4, 10);
 console.log();
+
+// +   正号		作用 : 让其他数据类型转换为数字类型
+var demo6 = true;
+demo6 = +demo6;
+console.log("demo6 = " + demo6);
+console.log(typeof(demo6));

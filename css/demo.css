@@ -11,7 +11,7 @@ body{
 	/*background-position: center;*/
 	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
-	background-image: url(imgs/034.jpg);
+	background-image: url(../imgs/034.jpg);
 	background-size: 100%;
 }
 .center{

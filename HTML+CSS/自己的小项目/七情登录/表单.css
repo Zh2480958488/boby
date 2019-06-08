@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: url(095.jpg);
+	background-size: 100%;
+}
+.da{
+	width: 150px;
+	height: 150px;
+	background:#fff;
+	position: absolute;
+	left: 26%;
+	top: 153px;
+	border:1px #ccc solid;
+	padding: 20px 15px 20px; 
+	background: rgba(255,255,255,0.5);
+}
+.da:hover{
+   background: rgba(255,255,255,0.8);
+}
+.da form #she{
+	width: 50px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>两栏布局，两个经典bug</title>
+	<link rel="stylesheet" type="text/css" href="lesson6.css">
+</head>
+<body>
+<!-- 两栏布局 
+	<div class="right"></div>
+	<div class="left"></div>
+		-->
+
+<!-- 两个bug、 -->
+
+
+	
+
+<!--
+解决margin塌陷
+bfc
+如何触发盒子的bfc 
+position:absolute;
+display:inline-block;
+float:left/right;        
+overflow:hidden;溢出部分隐藏
+-->
+<!-- 1.
+<div class="wrapper">
+		<div class="content"></div>
+</div> -->
+
+
+<!-- float:left/right 可以做文字环绕图片
+	元素站队 从左到右/从右到左
+	注意：设置后元素会被转换成lnline-block
+			还有position: absolute;也是
+	1.浮动元素产生了浮动流
+	  产生了浮动流的元素，块级元素看不到他们
+	  	产生了bfc元素
+	  	文本类属性的元素 
+	  	文本元素
+	  	才可以看到浮动元素
+
+ -->
+
+<!-- 清除浮动流 
+<div class="wrapper">
+	<div class="content">1</div>	
+	<div class="content">2</div>	
+	<div class="content">3</div>	
+</div>	
+-->
+
+
+
+
+</body>
+</html>

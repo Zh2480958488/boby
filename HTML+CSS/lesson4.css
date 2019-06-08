@@ -1,0 +1,36 @@
+1.
+div span{}
+2.
+div > em{}
+3.
+div.demo{}
+4.
+em,
+strong,
+span{
+
+}
+5.
+同行选择器权重值直接相加
+100    1
+#idDiv p{}
+10         10
+.classDiv .classP{}
+
+6.
+div{
+	font-size: 12px;			大小
+	font-weight: bold;			粗细	
+	font-style: italic;			斜体
+	font-family: arial; 		字体
+	color: red;transparen透明	颜色
+	color: #ff4400;
+	color: rgba(255,255,255,0.5);
+	border: 1px solid black;	边框
+	border-width: ;
+	border-style: ;
+	border-color: ;
+	border-left-color:  ;
+}
+
+

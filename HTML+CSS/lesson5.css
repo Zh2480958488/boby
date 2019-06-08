@@ -1,0 +1,60 @@
+/*伪类选择器 选择器：hover*/
+a:hover{
+	text-decoration: underline;
+	
+}
+/*初始化标签*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*关键字索引 */
+em{
+	font-style: normal;
+	color: #c00；
+}
+/*文本链接*/
+a{
+	text-decoration: none;
+	color: #424242;
+}
+/*导航栏*/
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	z-index: ;
+}
+/*绝对定位absolute用于定位
+	脱离原来位置
+	相对于最近的有定位的父级
+	进行定位（如果没有相对于文档）
+	第二层
+  相对定位relative用于参照物
+	保留位置
+	相对于原来位置
+	进行定位
+	第二层
+  固定定位fixed用于广告
+	fixed	
+*/
+/*div{
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: absolute;
+	left: 50%；
+	top：50%；
+	
+}*/
+
+
+
+
+
+
+
+
+

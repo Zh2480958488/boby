@@ -1,0 +1,14 @@
+!important		权重正无穷
+
+#only{}				100
+	
+.demo{}				10
+.demo1{}
+	
+[id]{}				
+[id="only"]{}
+
+div{}				 1
+
+*{}					 0
+

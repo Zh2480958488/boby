@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial;
+}
+/*两栏布局
+.right{
+	width: 100px;
+	height: 100px;
+	background: #fcc;
+
+	position: absolute;
+	right: 0;
+}
+
+.left{
+	height: 100px;
+	background: #123;
+
+	margin-right: 100px;
+}
+*/
+
+/*
+margin塌陷
+垂直方向的margin父子元素结合在一起
+取最大的值
+1.
+.wrapper{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+
+	margin-top: 100px;
+	margin-left: 100px;
+	overflow: hidden;
+}
+.content{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+
+	margin-left: 50px;
+	margin-top: 50px;
+}
+*/
+
+/*清除浮动流.wrapper{
+	border: 1px solid black;
+}
+.wrapper::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: #999;
+	float: left;
+}
+*/
+
+
+
+
+
+
+
+

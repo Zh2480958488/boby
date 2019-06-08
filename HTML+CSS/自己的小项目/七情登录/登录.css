@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	color: #424242;
+}
+body{
+	height: 960px;
+	cursor: url('mouse1.cur'),url(mouse1.cur),auto;
+	background-image: url(2.jpg);
+}
+/*外盒子*/
+.wrapper{
+	position: fixed;
+	left: 10%;
+	top: 30%;
+	width: 200px;
+	height: 280px;
+	border: 30px solid rgba(255,255,255,0.5);
+	border-left:20px solid rgba(255,255,255,0.5);
+	border-right:20px solid rgba(255,255,255,0.5);
+}
+/*内盒子*/
+.wrapper .center{
+	position: absolute;
+	width: 200px;
+	height: 280px;
+	background-color: rgba(255,255,255,0.5);
+}
+.wrapper:hover{
+	background: rgba(255,255,255,0.8);
+}
+.wrapper .center form .box1{
+	margin: 3px 13px;
+}
+.wrapper .center form input{
+	border: 1px solid #f40;
+	background: rgba(255,255,255,0.5);
+}
+.wrapper .center form .size{
+	width: 180px;
+	height: 20px;
+}
+.wrapper .center form .size1{
+	display: inline-block;
+	width: 50px;
+	height: 14px;
+	padding: 6px;
+}
+.wrapper .center form p .size2 {
+	font-size: 20px;
+}
+.wrapper .center form p .she{
+	color: #fff;
+	background:rgba(0,0,0,0.5); 
+	padding: 5px 76px;
+	border: 0px;s
+}
+.wrapper .center form p .she:hover{
+	background:rgba(255,0,203,0.8); 
+}
+.wrapper .center form a .one .he{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+.wrapper .center form a .one{
+	width: 16px;
+	height: 20px;
+	padding: 5px 74.5px;
+	background:rgba(0,0,0,0.5); 
+}
+.wrapper .center form a .one:hover{
+	background:rgba(255,0,203,0.8); 
+}
+

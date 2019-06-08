@@ -1,0 +1,84 @@
+html
+	<p>分段</p>
+	<h1>标题</h1>			
+	<em>斜体</em>
+	<strong>加粗</strong>
+	<div>容器</div>
+	<span>容器</span>
+
+	&nbsp;=空格文本	
+	<br>换行
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<img src="" alt="这是范爷" title="z这是范爷">	
+	<a href="#" target="_black">a标签可以文本可以图片</a>
+
+
+
+
+
+css	
+	大小
+	font-size: 12px;
+	粗细				
+	font-weight: bold;
+	斜体			
+	font-style: italic;	
+	字体		
+	font-family: arial; 		
+	颜色
+	color: red;transparen透明	
+	color: #ff4400;
+	color: rgba(255,255,255,0.5);
+	边框
+	border:1px solid black;	
+	border-width: ;
+	border-style: ;
+	border-color: ;
+	border-left-color:  ;
+	字体居中
+	text-align: center;
+	line-height: 16px;单行文本所占高度等于容器高度
+	缩进单位
+	text-indent: 2em;
+	字体线条
+	text-decoration: line-through;中划线/underline下划线/none此处无线
+	鼠标放上
+	cursor: help;
+	伪类选择器 选择器：hover
+	a:hover{}
+	定位		
+	position: absolute;	绝对
+			  relative；	相对
+			  fixed；	浮动定位
+	left: ；
+	top：；
+	透明度
+	opacity:;
+	层级设置
+	z-index: 1;
+	溢出部分隐藏
+	overflow:hidden;
+	浮动
+	float:left/right;
+	清楚浮动流
+	clear：both；
+	背景图片
+	background-image: url();
+	设置背景图片大小
+	background-size: 200px 200px;
+	background-size:100%;
+	背景图片不平铺
+	background-repeat:no-repeat ;
+	背景图片定位置
+	background-position: 100px 100px;
+	background-position: left top;
+	background-position: center center;
+	background-position: 50% 50%;
+
+
+
+	

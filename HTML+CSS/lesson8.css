@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial;
+	color: #424242;
+}
+
+/*1.单行文本处理方式*/
+p{
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid black;
+
+	white-space: nowrap;/*不换行*/
+	overflow: hidden;/*溢出部分隐藏*/
+	text-overflow: ellipsis;/*溢出部分打点处理*/
+}
+
+/*背景图片
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url(1.jpg);
+	background-size: 100px 100px;
+	background-repeat:no-repeat ;
+	background-position: 100px 100px;
+}
+*/
+/*图片代替文字*/
+a{
+	display: inline-block;
+	width: 190px;
+	height: 140px;
+	border: 1px solid black;
+	background-size: 190px 140px;
+	background-image: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+
+/*1.
+	text-indent: 190px;
+	white-space: nowrap;
+	overflow: hidden;
+	*/
+
+/*2.
+	height: 0;
+	padding-top: 140px;
+	overflow: hidden;
+	*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

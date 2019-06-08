@@ -1,0 +1,134 @@
+<!DOCTYPE html>XZZZZZZZ
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>html 高级标签</title>
+</head>
+<body>
+	&nbsp;=空格文本	     
+	&lt;小于号
+	&gt;大于号
+	<br>换行
+	<hr>水平线
+	<!--无序列表
+		type="disc/square/circle"
+	-->
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+	<!--图片
+		1.网上的url
+		2.本地的绝对路径 		引入图片需要写全图片地址加名称	
+		3.本地的相对路径 		引入图片直接写图片名称
+		4.alt="图片占位符" 	一般用于报错误  		 
+		5.title="图片提示符"	
+	-->
+		<img src="" alt="这是范爷" title="z这是范爷">	
+
+	<!--链接	
+		一.超级链接 
+			1.href=""			超文本引用
+			2.target="_black"	新标签页中打开
+		二.锚点
+		三.打电话 发邮件
+			1.href="tel:18523128269"
+			2.href="mailto:2480958488@qq.com"
+		四.协定限定符
+	-->
+		<a href="#" target="_black">a标签可以文本可以图片</a>
+	<!-- 表单 
+			一.发送数据
+				<form method="get" action="">
+				1.发送数据的方式
+					method="get/post"
+				2.发送给指定位置
+					action=""
+			二.数据提交
+				<input type="" name="">
+				1.输入框
+					type="text"		账号输入
+					type="password"	密码输入
+				2.
+					value="请输入账号"	
+				3.数据名		
+					name=""
+				4.选框
+					type="radio"	单选框
+					name=""			同统一一个选框
+					value="1"		返回数据值
+				5.默认选中
+					checked="checked"	
+			三.
+				<input type="submit" name="提交">	
+				1.提交框
+					type="submit"	提交框
+					value="提交"		可以改框名
+			四.
+				
+	-->
+	<form method="get" action="">
+		<p>
+		username:<input type="text" name="username" value="请输入账号"
+		onfocus="this.value''">
+		</p>
+		<p>
+		password:<input type="password" name="password">
+		</p>
+
+
+		1<input type="radio" name="1" value="1">
+		2<input type="radio" name="1" value="2">
+		3<input type="radio" name="1" value="3">
+
+
+		1<input type="checkbox" name="1" value="1">
+		2<input type="checkbox" name="1" value="2">
+		3<input type="checkbox" name="1" value="3">
+
+		有value以value为准
+		<h1>province</h1>
+		<select name="province">
+			<option value="北京">北京</option>
+			<option>上海</option>
+			<option>爱情</option>
+		</select>
+
+
+		<input type="submit" value="提交">
+
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--有序列表(基本不用)
+			type="a /A /i /I "
+			reversed="reversed"	逆序
+			start="2"			从2开始排序
+	-->
+	<ol >	
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</body>
+</html>	

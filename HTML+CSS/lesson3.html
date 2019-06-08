@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css引入css基础选择器选择器权重</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: #0f0;
+		}
+	</style>
+
+
+	<link rel="stylesheet" type="text/css" href="lesson3.css">
+</head>
+<body>
+
+	<div style="
+				width: 100px;
+				height: 100px;
+				background-color: #f40;
+	">
+				行间样式 权重 1000
+	</div>
+
+	<div>页面级css</div>
+
+	<div>外部css文件</div>
+
+	<div id="only"></div>
+
+	<div class="demo demo1"></div>
+
+	7.三.css权重	
+		！important   		Infinity正无穷
+		行间样式 					1000（都是256进制）
+		id              		    100
+		class | 属性	|伪属性		    10
+		标签 	|伪元素				1
+		通配符					    0
+
+</body>
+</html>
