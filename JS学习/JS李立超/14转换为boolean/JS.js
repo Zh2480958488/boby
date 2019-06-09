@@ -8,7 +8,7 @@ var demo = "a";
 demo = Boolean(demo);
 console.log(typeof(demo));
 console.log(demo);
-
+// 还阔以  !!demo
 
 
 
